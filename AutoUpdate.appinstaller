@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+    Uri="https://github.com/Hamzak827/AutoUpdate/blob/main/autoupdate.appinstaller"
+		Version="1.0.0.0"
+		xmlns="http://schemas.microsoft.com/appx/appinstaller/2018">
+
+		<MainBundle
+			Name="KioskUpdaterDemo"
+			Publisher="CN=YourPublisherName"
+			Version="1.0.0.0"
+			Uri="https://github.com/Hamzak827/AutoUpdate/blob/main/AutoUpdate.msix" />
+
+			<UpdateSettings>
+				<OnLaunch
+					HoursBetweenUpdateChecks="0"
+					ShowPrompt="true"
+					UpdateBlocksActivation="false" />
+			</UpdateSettings>
+
+		</AppInstaller>
+
