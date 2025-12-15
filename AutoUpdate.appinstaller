@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AppInstaller
-    Uri="https://github.com/Hamzak827/AutoUpdate/blob/main/autoupdate.appinstaller"
+    Uri="https://github.com/Hamzak827/AutoUpdate/blob/main/AutoUpdate.appinstaller"
 		Version="1.0.0.0"
 		xmlns="http://schemas.microsoft.com/appx/appinstaller/2018">
 
@@ -18,4 +18,5 @@
 			</UpdateSettings>
 
 		</AppInstaller>
+
 
