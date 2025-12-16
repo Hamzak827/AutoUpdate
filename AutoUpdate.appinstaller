@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <AppInstaller
-    xmlns="http://schemas.microsoft.com/appx/appinstaller/2018"
     Uri="https://hamzak827.github.io/AutoUpdate/AutoUpdate.appinstaller"
-    Version="1.0.7.0">
+    Version="1.0.7.0"
+    xmlns="http://schemas.microsoft.com/appx/appinstaller/2018">
 
-    <MainPackage
+	<MainPackage
         Name="ecc3e927-f572-4f7e-a836-9803f85cfb2e"
         Publisher="CN=h.khalil"
         Version="1.0.7.0"
         ProcessorArchitecture="x64"
-        Uri="https://hamzak827.github.io/AutoUpdate/AutoUpdate_1.0.7.0.msix" />
+        Uri="https://hamzak827.github.io/AutoUpdate/AutoUpdate.msix" />
 
-    <UpdateSettings>
-        <OnLaunch
+	<UpdateSettings>
+		<OnLaunch
             HoursBetweenUpdateChecks="1"
             ShowPrompt="true"
             UpdateBlocksActivation="false" />
-    </UpdateSettings>
+	</UpdateSettings>
+
 
 </AppInstaller>
+
+
 
 
 
