@@ -16,13 +16,14 @@
       HoursBetweenUpdateChecks="1"
       ShowPrompt="true"
       UpdateBlocksActivation="false" />
-
- <AutomaticBackgroundTask 
-      AllowUpdateOnAnyNetwork="true"
-      ForceUpdateFromAnyVersion="false"/>
   </UpdateSettings>
 
+  <AutomaticBackgroundTask
+      AllowUpdateOnAnyNetwork="true"
+      ForceUpdateFromAnyVersion="false" />
+
 </AppInstaller>
+
 
 
 
