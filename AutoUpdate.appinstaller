@@ -18,11 +18,8 @@
       UpdateBlocksActivation="false" />
   </UpdateSettings>
 
-  <AutomaticBackgroundTask
-      AllowUpdateOnAnyNetwork="true"
-      ForceUpdateFromAnyVersion="false" />
-
 </AppInstaller>
+
 
 
 
