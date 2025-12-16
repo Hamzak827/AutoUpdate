@@ -13,12 +13,13 @@
 
   <UpdateSettings>
     <OnLaunch
-      HoursBetweenUpdateChecks="0"
+      HoursBetweenUpdateChecks="1"
       ShowPrompt="true"
       UpdateBlocksActivation="false" />
   </UpdateSettings>
 
 </AppInstaller>
+
 
 
 
