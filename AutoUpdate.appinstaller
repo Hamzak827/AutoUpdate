@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <AppInstaller
     Uri="https://hamzak827.github.io/AutoUpdate/AutoUpdate.appinstaller"
-		Version="1.0.6.0"
+		Version="1.0.7.0"
 		xmlns="http://schemas.microsoft.com/appx/appinstaller/2018">
 
 		<MainPackage
 			Name="ecc3e927-f572-4f7e-a836-9803f85cfb2e"
 			Publisher="CN=h.khalil"
-			Version="1.0.6.0"
+			Version="1.0.7.0"
       ProcessorArchitecture="x64"
 			Uri="https://hamzak827.github.io/AutoUpdate/AutoUpdate.msix" />
 
@@ -19,6 +19,7 @@
 			</UpdateSettings>
 
 		</AppInstaller>
+
 
 
 
