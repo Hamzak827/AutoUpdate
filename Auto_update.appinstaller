@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <AppInstaller
-	Uri="https://hamzak827.github.io/AutoUpdate/Auto_update.appinstaller"
-	Version="1.0.0.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+    xmlns="http://schemas.microsoft.com/appx/appinstaller/2018"
+    Uri="https://hamzak827.github.io/AutoUpdate/Auto_update.appinstaller"
+    Version="1.0.0.0">
+
 	<MainPackage
-		Name="10bfc723-c412-4f59-b417-49c41a19667d"
-		Version="1.0.0.0"
-		Publisher="CN=h.khalil"
-		Uri="https://hamzak827.github.io/AutoUpdate/Auto_update.msix"
-		ProcessorArchitecture="x64" />
-	<Dependencies>
-		<Package
-			Name="Microsoft.VCLibs.140.00"
-			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
-			ProcessorArchitecture="x64"
-			Uri="https://hamzak827.github.io/AutoUpdate/Microsoft.VCLibs.x64.14.00.appx"
-			Version="14.0.33519.0" />
-	</Dependencies>
+        Name="10bfc723-c412-4f59-b417-49c41a19667d"
+        Publisher="CN=h.khalil"
+        Version="1.0.0.0"
+		ProcessorArchitecture="x64"
+        Uri="https://hamzak827.github.io/AutoUpdate/Auto_update.msix" />
+
 	<UpdateSettings>
 		<OnLaunch
-			HoursBetweenUpdateChecks="0" />
+            HoursBetweenUpdateChecks="0"
+            ShowPrompt="true"
+            UpdateBlocksActivation="false" />
 	</UpdateSettings>
+
 </AppInstaller>
+
 
 
 
